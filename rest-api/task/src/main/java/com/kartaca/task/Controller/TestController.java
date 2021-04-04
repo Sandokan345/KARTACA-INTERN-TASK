@@ -5,7 +5,6 @@ import com.kartaca.task.Service.DataService;
 import com.kartaca.task.Service.ProducerService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StopWatch;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +14,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-@Controller
+@RestController
 @RequestMapping("/")
 @AllArgsConstructor
 public class TestController {
